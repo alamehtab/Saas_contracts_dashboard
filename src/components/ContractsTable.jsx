@@ -34,13 +34,6 @@ export default function ContractTable({ contracts }) {
               >
                 <FileText size={20} className="text-blue-600" />
               </button>
-              <button
-                className="p-1 rounded hover:bg-gray-200"
-                onClick={() => navigate(`/insight/${c.id}`)}
-                title="View Insights"
-              >
-                <Lightbulb size={20} className="text-yellow-600" />
-              </button>
             </td>
           </tr>
         ))}
