@@ -1,16 +1,15 @@
-// src/components/InsightsList.jsx
 import React from "react";
 import { AlertTriangle, AlertCircle, CheckCircle2 } from "lucide-react";
 
-export default function InsightsList({ insights }) {
+export default function InsightsList({ insights = [] }) {
   const getIcon = (risk) => {
     switch (risk) {
       case "High":
-        return <AlertTriangle className="w-5 h-5 text-red-600" />;
+        return <AlertTriangle className="w-5 h-5 sm:w-6 sm:h-6 text-red-600 flex-shrink-0" />;
       case "Medium":
-        return <AlertCircle className="w-5 h-5 text-yellow-600" />;
+        return <AlertCircle className="w-5 h-5 sm:w-6 sm:h-6 text-yellow-600 flex-shrink-0" />;
       default:
-        return <CheckCircle2 className="w-5 h-5 text-green-600" />;
+        return <CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6 text-green-600 flex-shrink-0" />;
     }
   };
 
@@ -30,12 +29,12 @@ export default function InsightsList({ insights }) {
       {insights.map((ins, i) => (
         <li
           key={i}
-          className={`flex items-start gap-3 p-4 rounded-lg border ${getStyle(ins.risk)}`}
+          className={`flex items-start gap-2 sm:gap-3 p-3 sm:p-4 rounded-lg border ${getStyle(ins.risk)}`}
         >
           {getIcon(ins.risk)}
-          <div>
-            <p className="font-semibold">{ins.risk} Risk</p>
-            <p className="text-sm">{ins.message}</p>
+          <div className="flex-1 min-w-0">
+            <p className="font-semibold text-sm sm:text-base">{ins.risk} Risk</p>
+            <p className="text-xs sm:text-sm break-words">{ins.message}</p>
           </div>
         </li>
       ))}
