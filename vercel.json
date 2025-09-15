@@ -8,7 +8,10 @@
     }
   ],
   "routes": [
+    { "src": "/(.*\\.(js|css|map|ico|png|jpg|svg|json))", "dest": "/$1" },
+
     { "src": "/data.json", "dest": "/data.json" },
+
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
