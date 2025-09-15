@@ -65,5 +65,1421 @@
         "relevance": 0.8
       }
     ]
+  },
+  {
+    "id": "c3",
+    "name": "Cloud Hosting Agreement",
+    "parties": "AWS & ABC Corp",
+    "start": "2023-06-01",
+    "expiry": "2026-05-31",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Data Security",
+        "summary": "Encryption required at rest and in transit.",
+        "confidence": 0.9
+      },
+      {
+        "title": "Termination",
+        "summary": "60 days written notice.",
+        "confidence": 0.8
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No clear remedies for prolonged downtime."
+      },
+      {
+        "risk": "Medium",
+        "message": "Customer responsible for data backup."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 7.1",
+        "snippet": "Customer responsible for maintaining backups.",
+        "relevance": 0.88
+      }
+    ]
+  },
+  {
+    "id": "c4",
+    "name": "Outsourcing Agreement",
+    "parties": "Infosys & ABC Corp",
+    "start": "2022-09-15",
+    "expiry": "2025-09-14",
+    "status": "Renewal Due",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Confidentiality",
+        "summary": "Strict NDA terms apply.",
+        "confidence": 0.85
+      },
+      {
+        "title": "Payment Terms",
+        "summary": "Net 45 days invoicing.",
+        "confidence": 0.8
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "IP ownership not clearly defined."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 4.3",
+        "snippet": "All deliverables remain contractor’s IP unless otherwise agreed.",
+        "relevance": 0.83
+      }
+    ]
+  },
+  {
+    "id": "c5",
+    "name": "Pharma Supply Agreement",
+    "parties": "Pfizer & ABC Corp",
+    "start": "2023-03-01",
+    "expiry": "2026-02-28",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Delivery",
+        "summary": "Supply within 15 business days.",
+        "confidence": 0.78
+      },
+      {
+        "title": "Quality",
+        "summary": "Goods must meet GMP standards.",
+        "confidence": 0.89
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Strong compliance obligations reduce risk."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 8",
+        "snippet": "All products to comply with GMP standards.",
+        "relevance": 0.9
+      }
+    ]
+  },
+  {
+    "id": "c6",
+    "name": "Software License Agreement",
+    "parties": "Oracle & ABC Corp",
+    "start": "2024-01-01",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Audit Rights",
+        "summary": "Vendor may audit annually.",
+        "confidence": 0.77
+      },
+      {
+        "title": "License Scope",
+        "summary": "Restricted to internal business use.",
+        "confidence": 0.84
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "Audit clause may expose ABC to penalties."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 6",
+        "snippet": "Vendor reserves right to audit use once per year.",
+        "relevance": 0.86
+      }
+    ]
+  },
+  {
+    "id": "c7",
+    "name": "Facilities Management Agreement",
+    "parties": "CBRE & ABC Corp",
+    "start": "2023-02-01",
+    "expiry": "2026-01-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Insurance",
+        "summary": "Provider must carry liability insurance.",
+        "confidence": 0.82
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "Insurance coverage cap may be insufficient."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 9.1",
+        "snippet": "Provider maintains general liability coverage.",
+        "relevance": 0.8
+      }
+    ]
+  },
+  {
+    "id": "c8",
+    "name": "Payment Processing Agreement",
+    "parties": "Stripe & ABC Corp",
+    "start": "2024-03-01",
+    "expiry": "2026-02-28",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Chargebacks",
+        "summary": "Merchant responsible for disputes.",
+        "confidence": 0.76
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No cap on chargeback liability."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5.4",
+        "snippet": "Merchant responsible for all chargeback costs.",
+        "relevance": 0.85
+      }
+    ]
+  },
+  {
+    "id": "c9",
+    "name": "Consulting Agreement",
+    "parties": "McKinsey & ABC Corp",
+    "start": "2022-05-01",
+    "expiry": "2025-04-30",
+    "status": "Renewal Due",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Fees",
+        "summary": "Billed hourly with expenses.",
+        "confidence": 0.79
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No clear cap on reimbursable expenses."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3",
+        "snippet": "Consultant reimbursed for all reasonable expenses.",
+        "relevance": 0.81
+      }
+    ]
+  },
+  {
+    "id": "c10",
+    "name": "Data Center Hosting Agreement",
+    "parties": "Equinix & ABC Corp",
+    "start": "2023-07-01",
+    "expiry": "2026-06-30",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Uptime",
+        "summary": "99.99% availability guaranteed.",
+        "confidence": 0.92
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Strong SLA protection reduces risk."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 2",
+        "snippet": "Uptime commitment: 99.99%.",
+        "relevance": 0.9
+      }
+    ]
+  },
+  {
+    "id": "c11",
+    "name": "Cybersecurity Services Agreement",
+    "parties": "Palo Alto Networks & ABC Corp",
+    "start": "2023-08-01",
+    "expiry": "2025-07-31",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Incident Response",
+        "summary": "Vendor must notify within 48 hours of breach.",
+        "confidence": 0.88
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No penalties for delayed notification."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5.2",
+        "snippet": "Vendor shall notify client within 48 hours of incident.",
+        "relevance": 0.9
+      }
+    ]
+  },
+  {
+    "id": "c12",
+    "name": "HR Outsourcing Agreement",
+    "parties": "ADP & ABC Corp",
+    "start": "2022-11-01",
+    "expiry": "2025-10-31",
+    "status": "Renewal Due",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Payroll Processing",
+        "summary": "Services provided monthly.",
+        "confidence": 0.8
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "Termination requires 6 months’ notice."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 4.1",
+        "snippet": "Either party may terminate with 6 months’ notice.",
+        "relevance": 0.82
+      }
+    ]
+  },
+  {
+    "id": "c13",
+    "name": "AI Development Agreement",
+    "parties": "OpenAI & ABC Corp",
+    "start": "2023-04-01",
+    "expiry": "2026-03-31",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Data Usage",
+        "summary": "Client data may be used to train models.",
+        "confidence": 0.87
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No opt-out from data usage for training."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 6",
+        "snippet": "Vendor may use anonymized client data for AI training.",
+        "relevance": 0.9
+      }
+    ]
+  },
+  {
+    "id": "c14",
+    "name": "Banking Services Agreement",
+    "parties": "HSBC & ABC Corp",
+    "start": "2021-05-01",
+    "expiry": "2024-04-30",
+    "status": "Expired",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Interest Rates",
+        "summary": "Prime + 1% for overdraft.",
+        "confidence": 0.78
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Favorable financial terms."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 2",
+        "snippet": "Overdraft rate: Prime + 1%.",
+        "relevance": 0.81
+      }
+    ]
+  },
+  {
+    "id": "c15",
+    "name": "Telecom Services Agreement",
+    "parties": "Verizon & ABC Corp",
+    "start": "2023-02-01",
+    "expiry": "2025-01-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "SLA",
+        "summary": "99.5% uptime commitment.",
+        "confidence": 0.76
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "Credits for downtime capped at one month of fees."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3.4",
+        "snippet": "Downtime credits limited to one month of service.",
+        "relevance": 0.8
+      }
+    ]
+  },
+  {
+    "id": "c16",
+    "name": "Energy Supply Agreement",
+    "parties": "Shell Energy & ABC Corp",
+    "start": "2023-09-01",
+    "expiry": "2026-08-31",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Pricing",
+        "summary": "Fixed rate for first 2 years.",
+        "confidence": 0.81
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Stable pricing reduces risk."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 2.1",
+        "snippet": "Pricing fixed until August 2025.",
+        "relevance": 0.83
+      }
+    ]
+  },
+  {
+    "id": "c17",
+    "name": "Cloud Productivity Agreement",
+    "parties": "Google Workspace & ABC Corp",
+    "start": "2022-01-01",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Data Location",
+        "summary": "Data stored in EU datacenters.",
+        "confidence": 0.84
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No guarantee against cross-border transfers."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5.3",
+        "snippet": "Data may be transferred outside EU if required.",
+        "relevance": 0.85
+      }
+    ]
+  },
+  {
+    "id": "c18",
+    "name": "ERP Implementation Agreement",
+    "parties": "SAP & ABC Corp",
+    "start": "2023-05-01",
+    "expiry": "2025-04-30",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Delivery Timeline",
+        "summary": "Go-live within 12 months.",
+        "confidence": 0.75
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No penalties for delays."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 7.2",
+        "snippet": "Project delays not subject to financial penalties.",
+        "relevance": 0.79
+      }
+    ]
+  },
+  {
+    "id": "c19",
+    "name": "Insurance Services Agreement",
+    "parties": "AIG & ABC Corp",
+    "start": "2022-07-01",
+    "expiry": "2025-06-30",
+    "status": "Renewal Due",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Coverage",
+        "summary": "General liability and cyber included.",
+        "confidence": 0.9
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Comprehensive coverage provided."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 2.5",
+        "snippet": "Policy includes cyber liability coverage.",
+        "relevance": 0.87
+      }
+    ]
+  },
+  {
+    "id": "c20",
+    "name": "IT Managed Services Agreement",
+    "parties": "Accenture & ABC Corp",
+    "start": "2023-06-01",
+    "expiry": "2026-05-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Response Time",
+        "summary": "Critical issues within 4 hours.",
+        "confidence": 0.8
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No escalation penalties defined."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 6.1",
+        "snippet": "Critical issues response target: 4 hours.",
+        "relevance": 0.82
+      }
+    ]
+  },
+  {
+    "id": "c21",
+    "name": "Logistics Services Agreement",
+    "parties": "DHL & ABC Corp",
+    "start": "2023-04-15",
+    "expiry": "2026-04-14",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Delivery Times",
+        "summary": "Standard delivery within 5 business days.",
+        "confidence": 0.82
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No liability for customs delays."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3.2",
+        "snippet": "Carrier not responsible for delays at customs.",
+        "relevance": 0.81
+      }
+    ]
+  },
+  {
+    "id": "c22",
+    "name": "Digital Advertising Agreement",
+    "parties": "Google Ads & ABC Corp",
+    "start": "2022-10-01",
+    "expiry": "2025-09-30",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Spend Commitment",
+        "summary": "Minimum spend of $500k annually.",
+        "confidence": 0.85
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No exit if performance targets unmet."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 4.1",
+        "snippet": "Client agrees to minimum $500k spend.",
+        "relevance": 0.9
+      }
+    ]
+  },
+  {
+    "id": "c23",
+    "name": "IT Hardware Supply Agreement",
+    "parties": "Dell & ABC Corp",
+    "start": "2023-01-15",
+    "expiry": "2025-01-14",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Warranty",
+        "summary": "3-year replacement warranty.",
+        "confidence": 0.9
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Strong warranty reduces risk."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5.3",
+        "snippet": "Hardware covered under 3-year warranty.",
+        "relevance": 0.92
+      }
+    ]
+  },
+  {
+    "id": "c24",
+    "name": "Facilities Cleaning Agreement",
+    "parties": "ISS Facility Services & ABC Corp",
+    "start": "2023-09-01",
+    "expiry": "2026-08-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Health & Safety",
+        "summary": "Compliance with OSHA standards required.",
+        "confidence": 0.83
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No penalties for repeated safety breaches."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 7.1",
+        "snippet": "Contractor agrees to follow OSHA regulations.",
+        "relevance": 0.84
+      }
+    ]
+  },
+  {
+    "id": "c25",
+    "name": "Recruitment Services Agreement",
+    "parties": "Randstad & ABC Corp",
+    "start": "2022-12-01",
+    "expiry": "2025-11-30",
+    "status": "Renewal Due",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Placement Fee",
+        "summary": "20% of annual salary per hire.",
+        "confidence": 0.78
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No refund if candidate leaves early."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 4",
+        "snippet": "Placement fee payable upon candidate joining.",
+        "relevance": 0.8
+      }
+    ]
+  },
+  {
+    "id": "c26",
+    "name": "Cybersecurity Software License",
+    "parties": "CrowdStrike & ABC Corp",
+    "start": "2023-03-01",
+    "expiry": "2026-02-28",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Updates",
+        "summary": "Vendor provides patches monthly.",
+        "confidence": 0.86
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No liability if breach occurs despite patches."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 6.2",
+        "snippet": "Vendor not liable for breaches despite updates.",
+        "relevance": 0.88
+      }
+    ]
+  },
+  {
+    "id": "c27",
+    "name": "Global Travel Services Agreement",
+    "parties": "American Express GBT & ABC Corp",
+    "start": "2023-06-01",
+    "expiry": "2025-05-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Booking Fees",
+        "summary": "Flat $25 per transaction.",
+        "confidence": 0.79
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No cap on cancellation penalties."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3.2",
+        "snippet": "Cancellation fees apply as charged by airline.",
+        "relevance": 0.82
+      }
+    ]
+  },
+  {
+    "id": "c28",
+    "name": "Cloud Storage Agreement",
+    "parties": "Dropbox & ABC Corp",
+    "start": "2022-08-01",
+    "expiry": "2025-07-31",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Data Backup",
+        "summary": "Client responsible for secondary backup.",
+        "confidence": 0.8
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No disaster recovery guarantee."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5",
+        "snippet": "Provider not responsible for client’s backup strategy.",
+        "relevance": 0.83
+      }
+    ]
+  },
+  {
+    "id": "c29",
+    "name": "Construction Services Agreement",
+    "parties": "L&T Construction & ABC Corp",
+    "start": "2023-01-01",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Timeline",
+        "summary": "Project completion within 18 months.",
+        "confidence": 0.77
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No liquidated damages for delays."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 8",
+        "snippet": "Delays not subject to penalties.",
+        "relevance": 0.81
+      }
+    ]
+  },
+  {
+    "id": "c30",
+    "name": "Retail Supply Agreement",
+    "parties": "Walmart & ABC Corp",
+    "start": "2022-04-01",
+    "expiry": "2025-03-31",
+    "status": "Renewal Due",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Delivery",
+        "summary": "Goods delivered within 7 days.",
+        "confidence": 0.83
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Strong supply chain reduces risk."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3",
+        "snippet": "Delivery must be completed within 7 days.",
+        "relevance": 0.85
+      }
+    ]
+  },
+  {
+    "id": "c31",
+    "name": "Outsourced Payroll Agreement",
+    "parties": "ADP & ABC Corp",
+    "start": "2023-02-01",
+    "expiry": "2026-01-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Payroll Accuracy",
+        "summary": "ADP to ensure compliance with tax laws.",
+        "confidence": 0.86
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "Limited liability for payroll errors."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 4.1",
+        "snippet": "Provider not liable for penalties due to client data errors.",
+        "relevance": 0.84
+      }
+    ]
+  },
+  {
+    "id": "c32",
+    "name": "Mobile Device Leasing Agreement",
+    "parties": "Apple Business Services & ABC Corp",
+    "start": "2022-07-01",
+    "expiry": "2025-06-30",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Device Returns",
+        "summary": "Devices must be returned in good condition.",
+        "confidence": 0.8
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "Heavy penalties for damaged devices."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5.2",
+        "snippet": "Client responsible for repair costs on return.",
+        "relevance": 0.82
+      }
+    ]
+  },
+  {
+    "id": "c33",
+    "name": "Event Sponsorship Agreement",
+    "parties": "TechCrunch & ABC Corp",
+    "start": "2023-04-01",
+    "expiry": "2024-09-30",
+    "status": "Expired",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Branding",
+        "summary": "Logo displayed on all marketing material.",
+        "confidence": 0.87
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Standard sponsorship terms."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 2",
+        "snippet": "Sponsor’s logo to appear on banners and emails.",
+        "relevance": 0.88
+      }
+    ]
+  },
+  {
+    "id": "c34",
+    "name": "Healthcare Benefits Agreement",
+    "parties": "Cigna & ABC Corp",
+    "start": "2023-01-01",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Coverage",
+        "summary": "Includes dental and vision benefits.",
+        "confidence": 0.85
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "Premium increase not capped annually."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 6.4",
+        "snippet": "Premiums subject to annual review and increase.",
+        "relevance": 0.83
+      }
+    ]
+  },
+  {
+    "id": "c35",
+    "name": "International Distribution Agreement",
+    "parties": "Sony & ABC Corp",
+    "start": "2022-09-01",
+    "expiry": "2025-08-31",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Territory Rights",
+        "summary": "Distributor holds exclusive rights in APAC.",
+        "confidence": 0.82
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No clause addressing parallel imports."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3.1",
+        "snippet": "Exclusive rights in APAC region granted.",
+        "relevance": 0.84
+      }
+    ]
+  },
+  {
+    "id": "c36",
+    "name": "Software Integration Services",
+    "parties": "Infosys & ABC Corp",
+    "start": "2023-06-01",
+    "expiry": "2026-05-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Support",
+        "summary": "12 months of free integration support.",
+        "confidence": 0.83
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "Limited SLA for bug fixes."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 7.2",
+        "snippet": "Support limited to 5 business days per issue.",
+        "relevance": 0.81
+      }
+    ]
+  },
+  {
+    "id": "c37",
+    "name": "Warehouse Lease Agreement",
+    "parties": "Prologis & ABC Corp",
+    "start": "2023-03-01",
+    "expiry": "2028-02-28",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Rent Escalation",
+        "summary": "Annual 3% increase.",
+        "confidence": 0.84
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Predictable rental terms."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 4",
+        "snippet": "Rent shall increase 3% annually.",
+        "relevance": 0.85
+      }
+    ]
+  },
+  {
+    "id": "c38",
+    "name": "Telecom Services Agreement",
+    "parties": "Verizon & ABC Corp",
+    "start": "2022-05-01",
+    "expiry": "2025-04-30",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Network Uptime",
+        "summary": "99.5% uptime guaranteed.",
+        "confidence": 0.86
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "No penalties if uptime falls below SLA."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 6",
+        "snippet": "Uptime target is 99.5%, no penalty specified.",
+        "relevance": 0.82
+      }
+    ]
+  },
+  {
+    "id": "c39",
+    "name": "Office Furniture Supply Agreement",
+    "parties": "IKEA Business & ABC Corp",
+    "start": "2023-07-01",
+    "expiry": "2025-06-30",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Assembly",
+        "summary": "Supplier to provide free assembly.",
+        "confidence": 0.89
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Favorable terms with added value."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3",
+        "snippet": "Free assembly included in price.",
+        "relevance": 0.9
+      }
+    ]
+  },
+  {
+    "id": "c40",
+    "name": "Energy Supply Agreement",
+    "parties": "Shell Energy & ABC Corp",
+    "start": "2023-01-01",
+    "expiry": "2027-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Rate Adjustment",
+        "summary": "Prices may fluctuate with market rates.",
+        "confidence": 0.8
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No fixed cap on fuel surcharges."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5.1",
+        "snippet": "Rates may be adjusted per market conditions.",
+        "relevance": 0.81
+      }
+    ]
+  },
+  {
+    "id": "c41",
+    "name": "Legal Advisory Agreement",
+    "parties": "Baker McKenzie & ABC Corp",
+    "start": "2023-08-01",
+    "expiry": "2026-07-31",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Confidentiality",
+        "summary": "Strict confidentiality obligations.",
+        "confidence": 0.9
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Strong confidentiality clause."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 2",
+        "snippet": "Advisor must keep all client information confidential.",
+        "relevance": 0.88
+      }
+    ]
+  },
+  {
+    "id": "c42",
+    "name": "Marketing Automation SaaS",
+    "parties": "HubSpot & ABC Corp",
+    "start": "2022-10-01",
+    "expiry": "2025-09-30",
+    "status": "Renewal Due",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Data Ownership",
+        "summary": "Client owns marketing data.",
+        "confidence": 0.85
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "Export tools limited if contract ends."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 7.2",
+        "snippet": "Client retains ownership of campaign data.",
+        "relevance": 0.86
+      }
+    ]
+  },
+  {
+    "id": "c43",
+    "name": "Public Relations Agreement",
+    "parties": "Edelman PR & ABC Corp",
+    "start": "2023-05-01",
+    "expiry": "2024-12-31",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Media Coverage",
+        "summary": "Agency to secure minimum 3 features monthly.",
+        "confidence": 0.83
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Clear performance commitments."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3",
+        "snippet": "Agency will deliver at least 3 placements monthly.",
+        "relevance": 0.84
+      }
+    ]
+  },
+  {
+    "id": "c44",
+    "name": "Insurance Policy Agreement",
+    "parties": "AIG & ABC Corp",
+    "start": "2023-01-01",
+    "expiry": "2024-12-31",
+    "status": "Expired",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Coverage",
+        "summary": "Covers fire, theft, and liability.",
+        "confidence": 0.9
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "Exclusions for cyber risks."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 8",
+        "snippet": "Policy excludes cyber incidents.",
+        "relevance": 0.82
+      }
+    ]
+  },
+  {
+    "id": "c45",
+    "name": "AI Research Collaboration",
+    "parties": "MIT Labs & ABC Corp",
+    "start": "2023-09-01",
+    "expiry": "2026-08-31",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "IP Rights",
+        "summary": "Joint ownership of research outcomes.",
+        "confidence": 0.84
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "Ambiguity in IP division may cause disputes."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 10.3",
+        "snippet": "Both parties jointly own research outcomes.",
+        "relevance": 0.87
+      }
+    ]
+  },
+  {
+    "id": "c46",
+    "name": "SaaS CRM Subscription",
+    "parties": "Salesforce & ABC Corp",
+    "start": "2022-11-01",
+    "expiry": "2025-10-31",
+    "status": "Renewal Due",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Data Access",
+        "summary": "Data accessible only during active term.",
+        "confidence": 0.85
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No offline backup export option."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5.4",
+        "snippet": "Data deleted 30 days after termination.",
+        "relevance": 0.83
+      }
+    ]
+  },
+  {
+    "id": "c47",
+    "name": "Outsourcing Agreement",
+    "parties": "TCS & ABC Corp",
+    "start": "2023-03-01",
+    "expiry": "2028-02-29",
+    "status": "Active",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Service Scope",
+        "summary": "Includes IT support and maintenance.",
+        "confidence": 0.82
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "Termination penalty is high."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 6.3",
+        "snippet": "Early termination fee equals 1-year service charge.",
+        "relevance": 0.85
+      }
+    ]
+  },
+  {
+    "id": "c48",
+    "name": "Banking Services Agreement",
+    "parties": "HSBC & ABC Corp",
+    "start": "2023-01-01",
+    "expiry": "2026-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      {
+        "title": "Fees",
+        "summary": "Transaction fees apply to all transfers.",
+        "confidence": 0.87
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Medium",
+        "message": "No fee caps for international transfers."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 5.1",
+        "snippet": "Fees vary depending on transfer amount and currency.",
+        "relevance": 0.83
+      }
+    ]
+  },
+  {
+    "id": "c49",
+    "name": "Sustainability Consulting Agreement",
+    "parties": "McKinsey & ABC Corp",
+    "start": "2023-07-01",
+    "expiry": "2025-06-30",
+    "status": "Active",
+    "risk": "Low",
+    "clauses": [
+      {
+        "title": "Deliverables",
+        "summary": "Quarterly sustainability reports.",
+        "confidence": 0.9
+      }
+    ],
+    "insights": [
+      {
+        "risk": "Low",
+        "message": "Clear deliverables reduce risk."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 2",
+        "snippet": "Consultant shall deliver reports every quarter.",
+        "relevance": 0.91
+      }
+    ]
+  },
+  {
+    "id": "c50",
+    "name": "Streaming Services Agreement",
+    "parties": "Netflix Business & ABC Corp",
+    "start": "2022-06-01",
+    "expiry": "2025-05-31",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      {
+        "title": "Content Access",
+        "summary": "Business plan grants 50 user accounts.",
+        "confidence": 0.8
+      }
+    ],
+    "insights": [
+      {
+        "risk": "High",
+        "message": "Penalty for exceeding user cap is steep."
+      }
+    ],
+    "evidence": [
+      {
+        "source": "Section 3.2",
+        "snippet": "Additional user licenses billed at premium rates.",
+        "relevance": 0.82
+      }
+    ]
   }
 ]

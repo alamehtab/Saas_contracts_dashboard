@@ -32,10 +32,10 @@ export default function Topbar({ onOpenUpload }) {
 
         {/* User / Logout */}
         <button
-          className="p-2 rounded-full hover:bg-gray-100 transition"
+          className="p-2 rounded-full hover:bg-red-600 hover:text-white transition"
           onClick={handleLogout}
         >
-          <LogOut size={28} className="text-gray-500" />
+          <LogOut size={28} className="" />
         </button>
       </div>
     </header>
