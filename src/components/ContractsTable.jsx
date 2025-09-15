@@ -2,15 +2,9 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FileText, Eye } from "lucide-react";
 
-/**
- * ContractsTable - responsive table inside an overflow container.
- * Props:
- * - contracts: array
- * - onOpenEvidence?: function(evidenceArray)  // optional callback
- */
 export default function ContractsTable({ contracts, onOpenEvidence }) {
   const navigate = useNavigate();
-  const [expanded, setExpanded] = useState(null); // for inline evidence expand
+  const [expanded, setExpanded] = useState(null);
 
   if (!Array.isArray(contracts)) return null;
 
@@ -85,7 +79,6 @@ export default function ContractsTable({ contracts, onOpenEvidence }) {
                 </td>
               </tr>
 
-              {/* Inline expandable evidence row (mobile-friendly) */}
               {expanded === c.id && (
                 <tr className="bg-gray-50">
                   <td colSpan={6} className="p-3">

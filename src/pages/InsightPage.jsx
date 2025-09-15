@@ -3,7 +3,6 @@ import Layout from "../layout/Layout";
 import InsightsList from "../components/InsightsList";
 
 export default function InsightPage() {
-  // demo insights (replace with real data)
   const insights = [
     { risk: "High", message: "Contract renewal clause may cause penalties." },
     { risk: "Medium", message: "Pricing terms are ambiguous." },

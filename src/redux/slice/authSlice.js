@@ -2,7 +2,6 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { auth } from "../../services/firebase";
 
-// Async login
 export const loginUser = createAsyncThunk(
   "auth/loginUser",
   async ({ email, password }, { rejectWithValue }) => {
@@ -15,13 +14,11 @@ export const loginUser = createAsyncThunk(
   }
 );
 
-// Async logout
 export const logoutUser = createAsyncThunk("auth/logoutUser", async () => {
   await signOut(auth);
   return null;
 });
 
-// Listen to Firebase auth state changes
 export const listenAuth = () => (dispatch) => {
   onAuthStateChanged(auth, (user) => {
     if (user) {

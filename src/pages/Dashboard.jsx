@@ -11,16 +11,13 @@ export default function Dashboard() {
   const { list = [], status, error } = useSelector((s) => s.contracts);
   const [showUpload, setShowUpload] = useState(false);
 
-  // filters
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("");
   const [riskFilter, setRiskFilter] = useState("");
 
-  // pagination
   const [currentPage, setCurrentPage] = useState(1);
   const rowsPerPage = 10;
 
-  // evidence drawer
   const [evidence, setEvidence] = useState([]);
   const [showEvidence, setShowEvidence] = useState(false);
 
@@ -39,7 +36,6 @@ export default function Dashboard() {
   const total = filtered.length;
   const totalPages = Math.max(1, Math.ceil(total / rowsPerPage));
 
-  // clamp page
   useEffect(() => {
     if (currentPage > totalPages) setCurrentPage(1);
   }, [totalPages, currentPage]);
@@ -49,7 +45,6 @@ export default function Dashboard() {
 
   return (
     <Layout onOpenUpload={() => setShowUpload(true)}>
-      {/* Filters */}
       <div className="flex flex-col md:flex-row gap-3 md:items-center mb-4">
         <input
           value={search}
@@ -71,7 +66,6 @@ export default function Dashboard() {
         </select>
       </div>
 
-      {/* Table / States */}
       {status === "loading" && <div className="p-6 bg-white rounded shadow">Loading contracts...</div>}
       {status === "failed" && <div className="p-6 bg-white rounded shadow text-red-600">Error: {error}</div>}
       {status === "succeeded" && paginated.length === 0 && <div className="p-6 bg-white rounded shadow text-gray-600">No contracts found.</div>}
@@ -79,7 +73,6 @@ export default function Dashboard() {
       {status === "succeeded" && paginated.length > 0 && (
         <>
           <ContractsTable contracts={paginated} onOpenEvidence={(e) => { setEvidence(e); setShowEvidence(true); }} />
-          {/* pagination controls */}
           <div className="mt-4 flex items-center justify-between">
             <div className="text-sm text-gray-600">Showing {start + 1} - {Math.min(start + rowsPerPage, total)} of {total}</div>
             <div className="flex items-center gap-2">
@@ -91,10 +84,8 @@ export default function Dashboard() {
         </>
       )}
 
-      {/* Upload modal */}
       <UploadModal isOpen={showUpload} onClose={() => setShowUpload(false)} />
 
-      {/* Evidence drawer */}
       {showEvidence && <EvidenceDrawer evidence={evidence} onClose={() => setShowEvidence(false)} />}
     </Layout>
   );

@@ -4,10 +4,6 @@ import { useDispatch } from "react-redux";
 import { logoutUser } from "../redux/slice/authSlice";
 import { useNavigate } from "react-router-dom";
 
-/**
- * Topbar: shows hamburger on mobile, upload (optional), and logout.
- * onOpenUpload and onToggleSidebar are optional callbacks.
- */
 export default function Topbar({ onOpenUpload, onToggleSidebar }) {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -20,7 +16,6 @@ export default function Topbar({ onOpenUpload, onToggleSidebar }) {
   return (
     <header className="bg-white border-b border-gray-200 px-4 sm:px-6 py-3 flex items-center justify-between shadow-sm">
       <div className="flex items-center gap-3">
-        {/* hamburger only on mobile */}
         {onToggleSidebar && (
           <button
             onClick={onToggleSidebar}
@@ -36,7 +31,6 @@ export default function Topbar({ onOpenUpload, onToggleSidebar }) {
       </div>
 
       <div className="flex items-center gap-2 sm:gap-4">
-        {/* upload optional */}
         {onOpenUpload && (
           <button
             onClick={onOpenUpload}

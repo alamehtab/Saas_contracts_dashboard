@@ -11,7 +11,6 @@ export default function LoginPage() {
   const { status, error, user } = useSelector((state) => state.auth);
 
   useEffect(() => {
-    // if already logged in redirect
     if (user) navigate("/dashboard", { replace: true });
   }, [user, navigate]);
 

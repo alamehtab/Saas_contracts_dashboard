@@ -1,7 +1,5 @@
-// src/redux/slice/contractSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-// Fetch all contracts
 export const fetchContracts = createAsyncThunk(
   "contracts/fetchContracts",
   async (_, { rejectWithValue }) => {
@@ -15,7 +13,6 @@ export const fetchContracts = createAsyncThunk(
   }
 );
 
-// Fetch contract by id
 export const fetchContractById = createAsyncThunk(
   "contracts/fetchContractById",
   async (id, { rejectWithValue }) => {
@@ -41,7 +38,6 @@ const contractSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      // All contracts
       .addCase(fetchContracts.pending, (state) => {
         state.status = "loading";
         state.error = null;
@@ -55,7 +51,6 @@ const contractSlice = createSlice({
         state.error = action.payload;
       })
 
-      // Single contract
       .addCase(fetchContractById.pending, (state) => {
         state.status = "loading";
         state.error = null;
