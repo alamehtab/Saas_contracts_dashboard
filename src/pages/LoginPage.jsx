@@ -38,6 +38,7 @@ export default function LoginPage() {
               id="email"
               value={email}
               onChange={e => setEmail(e.target.value)}
+              placeholder="test@gmail.com only"
               required
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm px-3 py-2"
             />
@@ -47,6 +48,7 @@ export default function LoginPage() {
             <input
               type="password"
               id="password"
+              placeholder="test123 only"
               value={password}
               onChange={e => setPassword(e.target.value)}
               required

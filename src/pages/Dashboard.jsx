@@ -81,7 +81,11 @@ export default function Dashboard() {
         </main>
       </div>
 
-      {showUpload && <UploadModal onClose={() => setShowUpload(false)} />}
+      {/* Pass isOpen prop correctly */}
+      <UploadModal
+        isOpen={showUpload}
+        onClose={() => setShowUpload(false)}
+      />
     </div>
   );
 }
