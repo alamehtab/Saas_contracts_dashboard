@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { fetchContractById } from "../redux/slice/contractsSlice";
 import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
-import EvidenceDrawer from "../components/Evidencedrawer";
+import EvidenceDrawer from "../components/EvidenceDrawer";
 
 export default function ContractDetailPage() {
   const { id } = useParams();
